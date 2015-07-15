@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        
+        <div id="menu">
+            <ul>
+                <li><a href="index.xhtml">Home</a></li>
+                <li><a href="aboutus.xhtml">About Us</a></li>
+                <li><a href="services.xhtml">Services</a></li>
+                <li><a href="contactus.xhtml">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <form method="post" action="">
+            
+        <div><strong>Classified Advertising Form</strong></div><br/><br/>
+        Select Publication:<br/>
+        <input type="text" name="publicationTextBox" value="" autocomplete="on" /><br/><br/>
+        Select Publication Date:<br/>
+        <select name="yearDrop">
+            <option>2015</option>
+            <option>2016</option>
+        </select>
+        <select name="yearDrop">
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+            <option>Jun</option>
+            <option>Jul</option>
+            <option>Aug</option>
+            <option>Sep</option>
+            <option>Oct</option>
+            <option>Nov</option>
+            <option>Dec</option>
+        </select>
+        <select name="yearDrop">
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </select>
+        <br/><br/>
+        Advertisement Text:<br/>
+        <textarea name="myMultiLine" rows="4" cols="30">
+        </textarea><br/><br/>
+        
+         <input type="submit" value="Save/Pay" name="myButton" />
+        
+        
+        <select name="myDropdown">
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+            <input type="radio" name="myGroup" value="One" />
+            <input type="file" name="myFileSelect" value="" />
+        </select>
+         <input type="checkbox" name="myCheckBox" value="ON" /><br/>
+         </form>
+        
+    </body>
+</html>
